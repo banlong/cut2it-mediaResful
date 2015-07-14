@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SQL Server - media@10.0.0.13" uuid="86320e4a-1807-4a04-80b6-f4bbbf58822e" />
+    <data-source name="SQL Server - media_dev@10.0.0.13" uuid="7c819198-dba2-4fa7-8bf1-f0814a8dec38" />
+    <data-source name="SQL Server - media@localhost" uuid="57df2d59-227c-4589-a3b3-0e130740e6d3" />
+  </component>
+</project>

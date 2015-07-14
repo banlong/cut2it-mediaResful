@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Go Greeter</title>
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+  $(function(){
+  	$("#btnGetLanguages").click(function(){
+		$.getJSON("http://localhost:8088/languages", function(data) {
+            			alert("get data from /languages. " + data);         
+          		});
+  	});
+  });
+  </script>
+</head>
+<body>
+  <h1>Go Greeter</h1>
+  <form action="/greeter" method="post" accept-charset="utf-8">
+    <input type="text" name="username" id="username" value="Enter username...">
+    <input type="submit" value="Greet me!">
+    <HR>
+    <button type="button" id="btnGetLanguages">Get Languagues</button>
+    
+  </form>
+</body>
+</html>

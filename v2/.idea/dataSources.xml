@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="83523865">
+    <data-source source="LOCAL" name="SQL Server - media@10.0.0.13" uuid="86320e4a-1807-4a04-80b6-f4bbbf58822e">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://10.0.0.13:1433;databaseName=media</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="SQL Server - media_dev@10.0.0.13" uuid="7c819198-dba2-4fa7-8bf1-f0814a8dec38">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://10.0.0.13:1433;databaseName=media_dev</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="SQL Server - media@localhost" uuid="57df2d59-227c-4589-a3b3-0e130740e6d3">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost:1433;databaseName=media</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
