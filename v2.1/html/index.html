@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>testing fie using ajax</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#btnGetData").click(function(){
+                $.getJSON("http://localhost:8080/togos",
+                        function(data) {
+                            $("#main").innerText(data);
+                        });
+            });
+        });
+    </script>
+</head>
+<body>
+<button id="btnGetData">Get Data</button>
+    <div id="main"></div>
+</body>
+</html>
